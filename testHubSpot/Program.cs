@@ -69,7 +69,7 @@ namespace testHubSpot
             long vidoffset = parsedRequest.VidOffset;
             long timeoffset = parsedRequest.TimeOffset;
 
-            // Chek 'has-more' value, if is it 'true' and 'time-Offset' > serach date will continue get data from endpoint
+            // Check 'has-more' value, if is it 'true' and 'time-Offset' > serach date will continue get data from endpoint
             if (parsedRequest.HasMore == true)
             {
                 bool reapeatRequest = false;
